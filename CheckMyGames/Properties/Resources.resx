@@ -118,38 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="gameCubeLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gameCubeLogo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nesLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nesLogo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="closeHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\closeHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ps4Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ps4Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="minimizeHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\minimizeHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="switchLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\switchLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="snesLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\snesLogo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="wiiLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wiiLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="steamLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\steamLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nesLogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nesLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="maximizeHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\maximizeHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,40 +133,8 @@
   <data name="maximize" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\maximize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="snesLogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\snesLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ps2Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ps2Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ps3Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ps3Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="xboxLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\xboxLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="xbox360Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\xbox360Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="xboxOneLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\xboxOneLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="n64Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\n64Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ps1Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ps1Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\minimize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="epicGamesLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\epicGamesLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="wiiULogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\wiiULogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gameCubeLogo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gameCubeLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+
 </root>

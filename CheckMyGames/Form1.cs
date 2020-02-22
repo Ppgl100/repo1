@@ -370,7 +370,7 @@ namespace CheckMyGames
                 {
                     myGameTitle = c.Text;
                 }
-                else if(c is PictureBox)
+                else if(c is Button && c.Name =="myPictureBox")
                 {
                     if (c.Tag.Equals("PS4"))
                     {
@@ -471,8 +471,10 @@ namespace CheckMyGames
                 myTextBox.Visible = false;
                 myPanel.Controls.Add(myTextBox);
 
-                PictureBox myPictureBox = new PictureBox();
-                myPictureBox.BorderStyle = BorderStyle.FixedSingle;
+                Button myPictureBox = new Button();
+                myPictureBox.Name = "myPictureBox";
+                myPictureBox.FlatStyle = FlatStyle.Flat;
+                myPictureBox.Enabled = false;
                 myPictureBox.Size = new Size(96, 88);
                 myPictureBox.Location = new Point(6, 5);
                 myPictureBox.BackColor = Color.White;
@@ -481,82 +483,82 @@ namespace CheckMyGames
 
                 if (platf == "PS4")
                 {
-                    myPictureBox.BackgroundImage = global::CheckMyGames.Properties.Resources.ps4Logo;
+                    myPictureBox.Text = "PS4";
                     myPictureBox.Tag = "PS4";
                 }
                 else if (platf == "XBOX ONE")
                 {
-                    myPictureBox.BackgroundImage = global::CheckMyGames.Properties.Resources.xboxOneLogo;
+                    myPictureBox.Text = "XBOX ONE";
                     myPictureBox.Tag = "XBOX ONE";
                 }
                 else if (platf == "SWITCH")
                 {
-                    myPictureBox.BackgroundImage = global::CheckMyGames.Properties.Resources.switchLogo;
+                    myPictureBox.Text = "SWITCH";
                     myPictureBox.Tag = "SWITCH";
                 }
                 else if (platf == "NES")
                 {
-                    myPictureBox.BackgroundImage = global::CheckMyGames.Properties.Resources.nesLogo1;
+                    myPictureBox.Text = "NES";
                     myPictureBox.Tag = "NES";
                 }
                 else if (platf == "SNES")
                 {
-                    myPictureBox.BackgroundImage = global::CheckMyGames.Properties.Resources.snesLogo1;
+                    myPictureBox.Text = "SNES";
                     myPictureBox.Tag = "SNES";
                 }
                 else if (platf == "N64")
                 {
-                    myPictureBox.BackgroundImage = global::CheckMyGames.Properties.Resources.n64Logo;
+                    myPictureBox.Text = "N64";
                     myPictureBox.Tag = "N64";
                 }
                 else if (platf == "GAMECUBE")
                 {
-                    myPictureBox.BackgroundImage = global::CheckMyGames.Properties.Resources.gameCubeLogo1;
+                    myPictureBox.Text = "GAMECUBE";
                     myPictureBox.Tag = "GAMECUBE";
                 }
                 else if (platf == "Wii")
                 {
-                    myPictureBox.BackgroundImage = global::CheckMyGames.Properties.Resources.wiiLogo;
+                    myPictureBox.Text = "Wii";
                     myPictureBox.Tag = "Wii";
                 }
                 else if (platf == "WiiU")
                 {
-                    myPictureBox.BackgroundImage = global::CheckMyGames.Properties.Resources.wiiULogo;
+                    myPictureBox.Text = "WiiU";
                     myPictureBox.Tag = "WiiU";
                 }
                 else if (platf == "PS1")
                 {
-                    myPictureBox.BackgroundImage = global::CheckMyGames.Properties.Resources.ps1Logo;
+                    myPictureBox.Text = "PS1";
                     myPictureBox.Tag = "PS1";
                 }
                 else if (platf == "PS2")
                 {
-                    myPictureBox.BackgroundImage = global::CheckMyGames.Properties.Resources.ps2Logo;
+                    myPictureBox.Text = "PS2";
                     myPictureBox.Tag = "PS2";
                 }
                 else if (platf == "PS3")
                 {
-                    myPictureBox.BackgroundImage = global::CheckMyGames.Properties.Resources.ps3Logo;
+                    myPictureBox.Text = "PS3";
                     myPictureBox.Tag = "PS3";
                 }
                 else if (platf == "XBOX")
                 {
-                    myPictureBox.BackgroundImage = global::CheckMyGames.Properties.Resources.xboxLogo;
+                    myPictureBox.Text = "XBOX";
                     myPictureBox.Tag = "XBOX";
                 }
                 else if (platf == "XBOX 360")
                 {
-                    myPictureBox.BackgroundImage = global::CheckMyGames.Properties.Resources.xbox360Logo;
+                    myPictureBox.Text = "XBOX 360";
                     myPictureBox.Tag = "XBOX 360";
                 }
                 else if (platf == "STEAM")
                 {
-                    myPictureBox.BackgroundImage = global::CheckMyGames.Properties.Resources.steamLogo;
+                    myPictureBox.Text = "STEAM";
                     myPictureBox.Tag = "STEAM";
                 }
                 else if (platf == "EPIC GAMES")
                 {
-                    myPictureBox.BackgroundImage = global::CheckMyGames.Properties.Resources.epicGamesLogo;
+                    myPictureBox.Text = "EPIC GAMES";
                     myPictureBox.Tag = "EPIC GAMES";
                 }
                 myPanel.Controls.Add(myPictureBox);
@@ -647,7 +649,7 @@ namespace CheckMyGames
             {
                 foreach (Control c in p.Controls)
                 {
-                    if (c is PictureBox)
+                    if (c is Button && c.Name == "myPictureBox")
                     {
                         myPlatforms.Add(""+c.Tag);
                     }
@@ -739,7 +741,7 @@ namespace CheckMyGames
                     {
                         foreach (Control c in p.Controls)
                         {
-                            if (c is PictureBox && c.Tag == myPlatforms[i] && p.Tag == null)
+                            if (c is Button && c.Name == "myPictureBox" && c.Tag == myPlatforms[i] && p.Tag == null)
                             {
                                 p.Location = new Point(5, panelYPosition);
                                 panelYPosition = panelYPosition + 106;
@@ -768,7 +770,7 @@ namespace CheckMyGames
                     {
                         foreach (Control c in p.Controls)
                         {
-                            if (c is PictureBox && c.Tag == myPlatforms[i] && p.Tag == null)
+                            if (c is Button && c.Name == "myPictureBox" && c.Tag == myPlatforms[i] && p.Tag == null)
                             {
                                 p.Location = new Point(5, panelYPosition);
                                 panelYPosition = panelYPosition + 106;
